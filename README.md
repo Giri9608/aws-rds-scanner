@@ -43,8 +43,8 @@ python3 rds_scanner.py --region us-east-1
 Example Output
 
 
-
 [ 
+  
     {
         "DBInstanceIdentifier": "test-db",
         
@@ -55,6 +55,7 @@ Example Output
         "Endpoint": "test-db.cbsmo6q4mt6x.ap-south-1.rds.amazonaws.com"
     }
 ]
+
 
 
 
