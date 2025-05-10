@@ -36,10 +36,10 @@ python3 rds_scanner.py --region us-east-1
 Example Output
 [
     {
-        "DBInstanceIdentifier": "mydb",
+        "DBInstanceIdentifier": "test-db",
         "Engine": "mysql",
-        "Status": "available",
-        "Endpoint": "mydb.xxxxxxxxxxxx.us-east-1.rds.amazonaws.com"
+        "Status": "backing-up",
+        "Endpoint": "test-db.cbsmo6q4mt6x.ap-south-1.rds.amazonaws.com"
     }
 ]
 
