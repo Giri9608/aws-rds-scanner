@@ -43,9 +43,7 @@ python3 rds_scanner.py --region us-east-1
 Example Output
 
 
-
-[
-    
+[ 
     {
         "DBInstanceIdentifier": "test-db",
         
