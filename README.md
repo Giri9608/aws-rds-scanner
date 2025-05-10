@@ -50,7 +50,7 @@ Example Output
         
         "Engine": "mysql",
         
-        "Status": "backing-up",
+        "Status": "available",
         
         "Endpoint": "test-db.cbsmo6q4mt6x.ap-south-1.rds.amazonaws.com"
     }
