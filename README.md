@@ -12,15 +12,19 @@ Setup
 
 Clone the Repository:
 git clone https://github.com/your-username/aws-rds-scanner.git
+
 cd aws-rds-scanner
 
 
 Create a Virtual Environment:
+
 python3 -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
 Install Dependencies:
+
 pip install -r requirements.txt
 
 
@@ -31,10 +35,13 @@ Run aws configure and provide your AWS Access Key ID, Secret Access Key, and def
 
 
 Usage
+
 Run the script with the --region argument to specify the AWS region:
+
 python3 rds_scanner.py --region us-east-1
 
 Example Output
+
 
 
 [
@@ -49,6 +56,7 @@ Example Output
         "Endpoint": "test-db.cbsmo6q4mt6x.ap-south-1.rds.amazonaws.com"
     }
 ]
+
 
 
 Troubleshooting
