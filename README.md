@@ -1,8 +1,8 @@
 AWS RDS Instance Scanner
 
 A Python tool to retrieve metadata of all AWS RDS instances in a specified AWS region. The tool outputs the metadata in JSON format, including Engine Type, Status, and Endpoint Address.
-Prerequisites
 
+Prerequisites
 Python 3.8 or higher
 AWS CLI configured with appropriate credentials
 IAM permissions for rds:DescribeDBInstances (e.g., AmazonRDSReadOnlyAccess policy)
