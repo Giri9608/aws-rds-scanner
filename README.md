@@ -38,6 +38,7 @@ Example Output
 
 
 [
+    
     {
         "DBInstanceIdentifier": "test-db",
         
