@@ -35,6 +35,8 @@ Run the script with the --region argument to specify the AWS region:
 python3 rds_scanner.py --region us-east-1
 
 Example Output
+
+
 [
     {
         "DBInstanceIdentifier": "test-db",
@@ -44,10 +46,13 @@ Example Output
     }
 ]
 
+
 Troubleshooting
 
 Invalid Region: Ensure the region is valid (e.g., us-east-1, eu-west-1).
+
 Permission Denied: Verify your IAM user has rds:DescribeDBInstances permissions.
+
 Empty Output: If no RDS instances exist in the region, an empty array [] is returned.
 
 License
