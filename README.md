@@ -11,7 +11,7 @@ Git installed
 Setup
 
 Clone the Repository:
-git clone https://github.com/your-username/aws-rds-scanner.git
+git clone https://github.com/Giri9608/aws-rds-scanner.git
 
 cd aws-rds-scanner
 
